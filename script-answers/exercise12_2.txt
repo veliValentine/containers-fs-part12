@@ -1,94 +1,11 @@
-Script started on 2022-03-27 18:19:30+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="116" LINES="51"]
-]0;XXX@XXX: ~/workspace-ubuntu/containers-fs-part12[01;32mXXX@XXX[00m:[01;34m~/workspace-ubuntu/containers-fs-part12[00m$ docker run -it ubuntu bash
-Unable to find image 'ubuntu:latest' locally
-latest: Pulling from library/ubuntu
-
-[1A[2K
-4d32b49e2995: Pulling fs layer 
-[1B[1A[2K
-4d32b49e2995: Downloading [>                                                  ]  298.2kB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [==>                                                ]  1.465MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=====>                                             ]  2.947MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=======>                                           ]  4.418MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=========>                                         ]  5.602MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [===========>                                       ]  6.482MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [============>                                      ]  7.379MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [===============>                                   ]  8.838MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=================>                                 ]  10.02MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [===================>                               ]   11.2MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=====================>                             ]  12.38MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=======================>                           ]  13.56MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [==========================>                        ]  15.04MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [============================>                      ]  16.22MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [==============================>                    ]   17.4MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=================================>                 ]  18.86MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [===================================>               ]  20.33MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=====================================>             ]  21.51MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [========================================>          ]     23MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [==========================================>        ]  24.17MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [============================================>      ]  25.64MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [==============================================>    ]  26.82MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Downloading [=================================================> ]  28.29MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Verifying Checksum 
-[1B[1A[2K
-4d32b49e2995: Download complete 
-[1B[1A[2K
-4d32b49e2995: Extracting [>                                                  ]  294.9kB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [=====>                                             ]  3.244MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [==========>                                        ]  5.898MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [==============>                                    ]  8.552MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [===================>                               ]  10.91MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [========================>                          ]  13.86MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [=============================>                     ]   17.1MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [===================================>               ]  20.35MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [========================================>          ]   23.3MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [==========================================>        ]  24.48MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [===============================================>   ]  27.13MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Extracting [==================================================>]  28.57MB/28.57MB
-[1B[1A[2K
-4d32b49e2995: Pull complete 
-[1BDigest: sha256:bea6d19168bbfd6af8d77c2cc3c572114eb5d113e6f422573c93cb605a0e2ffb
-Status: Downloaded newer image for ubuntu:latest
-]0;root@9f15ec63a1c0: /root@9f15ec63a1c0:/# 
-[K]0;root@9f15ec63a1c0: /root@9f15ec63a1c0:/# mkdir /usr/src/app
-]0;root@9f15ec63a1c0: /root@9f15ec63a1c0:/# touch usr/src/app/index.js
-]0;root@9f15ec63a1c0: /root@9f15ec63a1c0:/# [Kexit
+Script started on 2022-03-27 19:19:21+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="116" LINES="51"]
+]0;user1@LAPTOP-O2V0K89I: ~/workspace-ubuntu/containers-fs-part12[01;32muser1@LAPTOP-O2V0K89I[00m:[01;34m~/workspace-ubuntu/containers-fs-part12[00m$ docker run -it ubuntu bash
+]0;root@70302edb280b: /root@70302edb280b:/# 
+[K]0;root@70302edb280b: /root@70302edb280b:/# mkdir /usr/src/app -p
+]0;root@70302edb280b: /root@70302edb280b:/# touch /usr/src/app/index.js
+]0;root@70302edb280b: /root@70302edb280b:/# [Kexit
 exit
-]0;XXX@XXX: ~/workspace-ubuntu/containers-fs-part12[01;32mXXX@XXX[00m:[01;34m~/workspace-ubuntu/containers-fs-part12[00m$ exit
+]0;user1@LAPTOP-O2V0K89I: ~/workspace-ubuntu/containers-fs-part12[01;32muser1@LAPTOP-O2V0K89I[00m:[01;34m~/workspace-ubuntu/containers-fs-part12[00m$ exit
 exit
 
-Script done on 2022-03-27 18:23:24+03:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2022-03-27 19:19:54+03:00 [COMMAND_EXIT_CODE="0"]
