@@ -1,0 +1,411 @@
+Script started on 2022-03-27 18:32:37+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="116" LINES="51"]
+]0;XXX@XXX: ~/workspace-ubuntu/containers-fs-part12[01;32mXXX@XXX[00m:[01;34m~/workspace-ubuntu/containers-fs-part12[00m$ exitdocker run -it ubuntu bash
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# 
+[K]0;root@1e789e351d7c: /root@1e789e351d7c:/# apt-get update
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+
+0% [1 InRelease 4087 B/265 kB 2%] [Waiting for headers]
+                                                       
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+
+0% [1 InRelease 14.3 kB/265 kB 5%] [2 InRelease 4070 B/114 kB 4%]
+                                                                 
+0% [1 InRelease 149 kB/265 kB 56%]
+                                  
+0% [Working]
+0% [Waiting for headers]
+                        
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+
+0% [3 InRelease 5547 B/114 kB 5%] [Waiting for headers]
+                                                       
+Get:4 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1068 kB]
+
+0% [3 InRelease 114 kB/114 kB 100%] [4 Packages 8549 B/1068 kB 1%]
+                                                                  
+0% [4 Packages 8549 B/1068 kB 1%]
+0% [Waiting for headers] [4 Packages 128 kB/1068 kB 12%]
+                                                        
+Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+
+0% [5 InRelease 2627 B/108 kB 2%] [4 Packages 128 kB/1068 kB 12%]
+                                                                 
+0% [4 Packages 458 kB/1068 kB 43%]
+0% [Waiting for headers] [4 Packages 603 kB/1068 kB 56%]
+                                                        
+0% [Waiting for headers]
+0% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers]
+18% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+19% [Waiting for headers] [Waiting for headers]
+                                               
+Get:6 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+
+19% [6 Packages 8551 B/177 kB 5%] [Waiting for headers]
+                                                       
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1683 kB]
+
+19% [6 Packages 23.2 kB/177 kB 13%] [7 Packages 5629 B/1683 kB 0%]
+                                                                  
+25% [6 Packages 68.4 kB/177 kB 39%] [Waiting for headers]
+                                                         
+Get:8 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [25.8 kB]
+
+26% [6 Packages 68.4 kB/177 kB 39%] [8 Packages 17.4 kB/25.8 kB 68%]
+26% [7 Packages store 0 B] [6 Packages 68.4 kB/177 kB 39%] [8 Packages 17.4 kB/25.8 kB 68%]
+                                                                                           
+26% [7 Packages store 0 B] [6 Packages 68.4 kB/177 kB 39%]
+                                                          
+Get:9 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [863 kB]
+
+26% [7 Packages store 0 B] [6 Packages 68.4 kB/177 kB 39%] [9 Packages 4611 B/863 kB 1%]
+                                                                                        
+29% [6 Packages 71.3 kB/177 kB 40%] [9 Packages 803 kB/863 kB 93%]
+29% [8 Packages store 0 B] [6 Packages 71.3 kB/177 kB 40%] [9 Packages 803 kB/863 kB 93%]
+                                                                                         
+30% [6 Packages 71.3 kB/177 kB 40%] [9 Packages 803 kB/863 kB 93%]
+                                                                  
+30% [6 Packages 72.8 kB/177 kB 41%]
+30% [9 Packages store 0 B] [6 Packages 72.8 kB/177 kB 41%]
+                                                          
+30% [6 Packages 74.3 kB/177 kB 42%]
+                                   
+31% [Waiting for headers]
+                         
+Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [1275 kB]
+
+31% [10 Packages 796 B/1275 kB 0%]
+31% [6 Packages store 0 B] [10 Packages 796 B/1275 kB 0%]
+                                                         
+31% [10 Packages 15.4 kB/1275 kB 1%]
+35% [10 Packages 970 kB/1275 kB 76%]
+                                    
+36% [Waiting for headers]
+                         
+Get:11 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+
+36% [11 Packages 1886 B/11.3 MB 0%]
+36% [10 Packages store 0 B] [11 Packages 1886 B/11.3 MB 0%]
+                                                           
+37% [11 Packages 119 kB/11.3 MB 1%]
+41% [11 Packages 1141 kB/11.3 MB 10%]
+45% [11 Packages 2174 kB/11.3 MB 19%]
+49% [11 Packages 3193 kB/11.3 MB 28%]
+52% [11 Packages 4227 kB/11.3 MB 37%]
+56% [11 Packages 5220 kB/11.3 MB 46%]
+60% [11 Packages 6259 kB/11.3 MB 55%]
+64% [11 Packages 7264 kB/11.3 MB 64%]
+67% [11 Packages 8306 kB/11.3 MB 73%]
+71% [11 Packages 9328 kB/11.3 MB 82%]                                                                  2406 kB/s 2s
+75% [11 Packages 10.4 MB/11.3 MB 91%]                                                                  2406 kB/s 2s
+79% [Waiting for headers]                                                                              2406 kB/s 1s
+                                                                                                                   
+Get:12 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+
+79% [12 Packages 2834 B/33.4 kB 8%]                                                                    2406 kB/s 1s
+79% [11 Packages store 0 B] [12 Packages 2834 B/33.4 kB 8%]                                            2406 kB/s 1s
+79% [11 Packages store 0 B] [Waiting for headers]                                                      2406 kB/s 1s
+                                                                                                                   
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [1139 kB]
+
+79% [11 Packages store 0 B] [13 Packages 2790 B/1139 kB 0%]                                            2406 kB/s 1s
+83% [13 Packages 940 kB/1139 kB 83%]                                                                   2406 kB/s 1s
+83% [12 Packages store 0 B] [13 Packages 940 kB/1139 kB 83%]                                           2406 kB/s 1s
+84% [13 Packages 946 kB/1139 kB 83%]                                                                   2406 kB/s 1s
+84% [Waiting for headers]                                                                              2406 kB/s 1s
+                                                                                                                   
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1146 kB]
+
+84% [14 Packages 2111 B/1146 kB 0%]                                                                    2406 kB/s 1s
+84% [13 Packages store 0 B] [14 Packages 2111 B/1146 kB 0%]                                            2406 kB/s 1s
+85% [14 Packages 95.6 kB/1146 kB 8%]                                                                   2406 kB/s 1s
+89% [14 Packages 1118 kB/1146 kB 98%]                                                                  2406 kB/s 0s
+89% [Waiting for headers]                                                                              2406 kB/s 0s
+                                                                                                                   
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [30.3 kB]
+
+89% [15 Packages 410 B/30.3 kB 1%]                                                                     2406 kB/s 0s
+89% [14 Packages store 0 B] [15 Packages 410 B/30.3 kB 1%]                                             2406 kB/s 0s
+89% [14 Packages store 0 B] [Waiting for headers]                                                      2406 kB/s 0s
+                                                                                                                   
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2099 kB]
+
+89% [14 Packages store 0 B] [16 Packages 2062 B/2099 kB 0%]                                            2406 kB/s 0s
+90% [16 Packages 69.2 kB/2099 kB 3%]                                                                   2406 kB/s 0s
+90% [15 Packages store 0 B] [16 Packages 69.2 kB/2099 kB 3%]                                           2406 kB/s 0s
+91% [16 Packages 69.2 kB/2099 kB 3%]                                                                   2406 kB/s 0s
+94% [16 Packages 1106 kB/2099 kB 53%]                                                                  2406 kB/s 0s
+98% [16 Packages 2064 kB/2099 kB 98%]                                                                  2406 kB/s 0s
+98% [Waiting for headers]                                                                              2406 kB/s 0s
+                                                                                                                   
+Get:17 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [26.0 kB]
+
+98% [17 Packages 2463 B/26.0 kB 9%]                                                                    2406 kB/s 0s
+98% [16 Packages store 0 B] [17 Packages 2463 B/26.0 kB 9%]                                            2406 kB/s 0s
+98% [16 Packages store 0 B] [Waiting for headers]                                                      2406 kB/s 0s
+                                                                                                                   
+Get:18 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [51.2 kB]
+
+98% [16 Packages store 0 B] [18 Packages 2523 B/51.2 kB 5%]                                            2406 kB/s 0s
+98% [16 Packages store 0 B]                                                                            2406 kB/s 0s
+99% [Working]                                                                                          2406 kB/s 0s
+99% [17 Packages store 0 B]                                                                            2406 kB/s 0s
+99% [Working]                                                                                          2406 kB/s 0s
+99% [18 Packages store 0 B]                                                                            2406 kB/s 0s
+100% [Working]                                                                                         2406 kB/s 0s
+                                                                                                                   
+Fetched 21.6 MB in 10s (2264 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 59%
+
+Reading package lists... 59%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# apt-get -y install nano
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 59%
+
+Reading package lists... 59%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 52%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Suggested packages:
+  hunspell
+The following NEW packages will be installed:
+  nano
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 269 kB of archives.
+After this operation, 868 kB of additional disk space will be used.
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 nano amd64 4.8-1ubuntu1 [269 kB]
+
+1% [1 nano 4097 B/269 kB 2%]
+                            
+100% [Working]
+              
+Fetched 269 kB in 0s (995 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package nano.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 4127 files and directories currently installed.)
+Preparing to unpack .../nano_4.8-1ubuntu1_amd64.deb ...
+Unpacking nano (4.8-1ubuntu1) ...
+Setting up nano (4.8-1ubuntu1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# nano /usr/src/app/index.js
+[?2004h[?1049h[22;0;0t[1;51r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[49;37H(B[0;1m[37m[41m[ Directory '/usr/src/app' does not exist ][39;49m(B[m[H(B[0;7m  GNU nano 4.8                                   /usr/src/app/index.js                                              [1;115H(B[m
+[50d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo
+[51d(B[0;7m^X(B[m Exit[51;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo
+[49d[2d[39;49m(B[m[?12l[?25h[?25l[49d[K[1;107H(B[0;7mModified(B[m
+[2dconsole.log((B[0;1m[35m'Hello World'[39m(B[m)[?12l[?25h[?25l
+[49d(B[0;7mSave modified buffer?                                                                                               [50;1H Y(B[m Yes[K
+[51d(B[0;7m N(B[m No  [51;18H(B[0;7mC(B[m Cancel[K[49;23H[?12l[?25h[?25l
+[50d(B[0;7m^G(B[m Get Help[50;30H(B[0;7mM-D(B[m DOS Format[50;59H(B[0;7mM-A(B[m Append[50;88H(B[0;7mM-B(B[m Backup File
+[51d(B[0;7m^C(B[m Cancel[17G             (B[0;7mM-M(B[m Mac Format[51;59H(B[0;7mM-P(B[m Prepend[51;88H(B[0;7m^T(B[m To Files
+[49d(B[0;7mFile Name to Write: /usr/src/app/index.js
+(B[m[49;42H[?12l[?25h[?25l[49;25H[1K (B[0;1m[37m[41m[ Error writing /usr/src/app/index.js: No such file or directory ][39;49m(B[m[K[50;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[51;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo
+[49d[2;27H[?12l[?25h[?25l
+[49d(B[0;7mSave modified buffer?                                                                                               [50;1H Y(B[m Yes[K
+[51d(B[0;7m N(B[m No  [51;18H(B[0;7mC(B[m Cancel[K[49;23H[?12l[?25h[?25l
+[50d(B[0;7m^G(B[m Get Help[50;30H(B[0;7mM-D(B[m DOS Format[50;59H(B[0;7mM-A(B[m Append[50;88H(B[0;7mM-B(B[m Backup File
+[51d(B[0;7m^C(B[m Cancel[17G             (B[0;7mM-M(B[m Mac Format[51;59H(B[0;7mM-P(B[m Prepend[51;88H(B[0;7m^T(B[m To Files
+[49d(B[0;7mFile Name to Write: /usr/src/app/index.js
+(B[m[49;42H[?12l[?25h[?25l[49;25H[1K (B[0;1m[37m[41m[ Error writing /usr/src/app/index.js: No such file or directory ][39;49m(B[m[K[50;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[51;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo
+[49d[2;27H[?12l[?25h[?25l
+[49d(B[0;7mSave modified buffer?                                                                                               [50;1H Y(B[m Yes[K
+[51d(B[0;7m N(B[m No  [51;18H(B[0;7mC(B[m Cancel[K[49;23H[?12l[?25h[?25l
+[J[51d[?12l[?25h[51;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;root@1e789e351d7c: /root@1e789e351d7c:/# [Kls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# ls usr/
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# ls usr/src/a 
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# touch /usr/src/app/index.js
+touch: cannot touch '/usr/src/app/index.js': No such file or directory
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# [Ktouch /usr/src/app/index.js[1P[1P[1P[1P[1P[1@m[1@k[1@d[1@i[1@r /usr/src/app/index.js         -p
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# mkdir /usr/src/app/ -ptouch /usr/src/app/index.js
+]0;root@1e789e351d7c: /root@1e789e351d7c:/# [Ktouch /usr/src/app/index.js[5Pmkdir /usr/src/app/ -ptouch /usr/src/app/index.js[16Pls usr/src/[K[K[24@nano /usr/src/app/index.js
+[?2004h[?1049h[22;0;0t[1;51r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[49;52H(B[0;7m[ Reading... ](B[m[49;51H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 4.8                                   /usr/src/app/index.js                                              [1;115H(B[m
+[50d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo
+[51d(B[0;7m^X(B[m Exit[51;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo
+[49d[2d[39;49m(B[m[?12l[?25h[?25l[49d[K[1;107H(B[0;7mModified(B[m
+[2dconsole.log((B[0;1m[35m'Hello World'[39m(B[m)[?12l[?25h[?25l
+[49d(B[0;7mSave modified buffer?                                                                                               [50;1H Y(B[m Yes[K
+[51d(B[0;7m N(B[m No  [51;18H(B[0;7mC(B[m Cancel[K[49;23H[?12l[?25h[?25l
+[50d(B[0;7m^G(B[m Get Help[50;30H(B[0;7mM-D(B[m DOS Format[50;59H(B[0;7mM-A(B[m Append[50;88H(B[0;7mM-B(B[m Backup File
+[51d(B[0;7m^C(B[m Cancel[17G             (B[0;7mM-M(B[m Mac Format[51;59H(B[0;7mM-P(B[m Prepend[51;88H(B[0;7m^T(B[m To Files
+[49d(B[0;7mFile Name to Write: /usr/src/app/index.js
+(B[m[49;42H[?12l[?25h[?25l[49;51H[1K (B[0;7m[ Writing... ](B[m[K[1;107H(B[0;7m        (B[m[49;51H(B[0;7m[ Wrote 1 line ](B[m
+[J[51d[?12l[?25h[51;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;root@1e789e351d7c: /root@1e789e351d7c:/# [Kexit
+exit
+]0;XXX@XXX: ~/workspace-ubuntu/containers-fs-part12[01;32mXXX@XXX[00m:[01;34m~/workspace-ubuntu/containers-fs-part12[00m$ exit
+exit
+
+Script done on 2022-03-27 18:35:51+03:00 [COMMAND_EXIT_CODE="0"]
