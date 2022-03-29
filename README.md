@@ -13,3 +13,11 @@ This section has been created by [Jami Kousa](https://github.com/jakousa) in col
 
 ### 12.1
 Run: `curl http://helsinki.fi/ > script-answers/exercise12_1.txt`
+
+### 12.5
+Build: `docker build -t todo-backend:12.5 todo-app/todo-backend/`
+
+Run: `docker run -it -p 3000:3000 todo-backend:12.5`
+
+### 12.6
+`docker compose --project-directory todo-app/todo-backend up`
