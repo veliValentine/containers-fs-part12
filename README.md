@@ -21,3 +21,14 @@ Run: `docker run -it -p 3000:3000 todo-backend:12.5`
 
 ### 12.6
 `docker compose --project-directory todo-app/todo-backend up`
+
+### 12.13
+Run mongo: `docker compose -f docker-compose.dev.yml up`
+
+Run dev backend: ``
+
+Run dev banckend with mongo: `MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev`
+
+Build frontend image: `docker build todo-app/todo-frontend/ -t todo-frontend`
+
+Run frontend container: `docker run -d -p 80:80 todo-frontend`
