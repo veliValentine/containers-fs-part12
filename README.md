@@ -32,3 +32,6 @@ Run dev banckend with mongo: `MONGO_URL=mongodb://the_username:the_password@loca
 Build frontend image: `docker build todo-app/todo-frontend/ -t todo-frontend`
 
 Run frontend container: `docker run -d -p 80:80 todo-frontend`
+
+### 12.15
+Run `docker compose -f docker-compose.dev.yml up` 
