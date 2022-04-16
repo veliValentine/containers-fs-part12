@@ -33,5 +33,5 @@ Build frontend image: `docker build todo-app/todo-frontend/ -t todo-frontend`
 
 Run frontend container: `docker run -d -p 80:80 todo-frontend`
 
-### 12.15
+### 12.15 && 12.16
 Run `docker compose -f docker-compose.dev.yml up` 
