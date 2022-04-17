@@ -19,6 +19,7 @@ services:
       - ./todo-frontend/:/usr/src/app
     environment:
       - REACT_APP_BACKEND_URL=http://localhost:8080/api
+      - CHOKIDAR_USEPOLLING=true
     container_name: dev-todo-frontend
 
   back:
