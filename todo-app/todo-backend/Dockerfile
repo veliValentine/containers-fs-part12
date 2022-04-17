@@ -7,7 +7,7 @@ ENV PORT=3000
 
 COPY --chown=node:node . .
 
-RUN npm ci 
+RUN npm ci --production
   
 USER node
 
