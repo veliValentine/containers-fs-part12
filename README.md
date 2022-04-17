@@ -35,3 +35,6 @@ Run frontend container: `docker run -d -p 80:80 todo-frontend`
 
 ### 12.15 && 12.16
 Run `docker compose -f docker-compose.dev.yml up` 
+
+### 12.21 & 12.22
+Containerized development and production environments. Made in repository [https://github.com/veliValentine/solidabis-koodihaaste-2021](https://github.com/veliValentine/solidabis-koodihaaste-2021)
